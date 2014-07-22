@@ -5,6 +5,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Random;
 
+/**
+* Hey, a comment
+*/
 public final class FileNamer {
 
 	public static void main(String[] args) {
@@ -67,6 +70,9 @@ public final class FileNamer {
 
 	}
 	
+	/**
+	* Hey, another comment
+	*/
 	public static String getNewFileName(ArrayList<String> titles, ArrayList<Integer> chosen, Random generator) {
 		boolean duplicateFound = true;
 		String newName = null;
